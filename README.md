@@ -42,21 +42,6 @@ The website includes multiple informational sections, interactive features, imag
 
 ---
 
-## Screenshots
-
-### Homepage
-![Homepage Screenshot](images/homepage-placeholder.png)
-
-### Rivalry Showcase
-![Rivalry Showcase Screenshot](images/showcase-placeholder.png)
-
-### Dark Mode
-![Dark Mode Screenshot](images/darkmode-placeholder.png)
-
-> Replace the placeholder image paths above with your actual screenshots later.
-
----
-
 ## How to Run Locally
 
 1. Clone the repository:

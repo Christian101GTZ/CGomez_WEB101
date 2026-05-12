@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- head -->
+    <title>World of Derbies</title>
+    <link rel="icon" href="./img/Football.jpg" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <ul>
+        <li><a href="https://www.codepath.org">CodePath</a></li>
+        <li><a href="#Home">Link 2</a></li>
+        <li><a href="#About">Link 3</a></li>
+        <li><a href="#Links">Link 4</a></li>
+        <li><button id="theme-button">Toggle Dark Mode</button></li>
+      </ul>
+    </div>
+
+    <div class="header-container">
+      <div class="header-item">
+        <img id="header-img" src="./img/2026Ball.jpg" alt="Site logo" />
+        <h1>Rivalry Atlas</h1>
+      </div>
+      <div class="header-item">
+        <button class="header-button">Club Rivalries</button>
+        <button class="header-button">International Rivalries</button>
+      </div>
+    </div>
+
+    <!-- about -->
+    <h2 id="Home">About the Event</h2>
+    <p>
+      Football rivalries are more than just matches—they're historic clashes fueled by pride, passion, and tradition. 
+      This event explores iconic rivalries from around the world, highlighting the cultural and competitive fire that defines them. Whether you're a lifelong fan or new to the sport, this site is designed to immerse you in the stories 
+      behind the fiercest battles on the pitch. Our audience includes sports enthusiasts, history buffs, and anyone curious about the deeper meaning behind the beautiful game.
+    </p>
+    <div class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/cWCnTJRcss0" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="tagline-section">
+      <h3>From Local Pride to Global Fire</h3>
+      <h4>Why Rivalries Matter</h4>
+      <ul>
+        <li><b>Historic Passion:</b> Rivalries are rooted in decades of pride, politics, and unforgettable moments.</li>
+        <li><b>Worldwide Reach:</b> Fans from every continent bring their voice to the rivalry — from Buenos Aires to Tokyo.</li>
+        <li><b>Community Power:</b> Rivalry Atlas connects supporters across borders to celebrate the teams they love.</li>
+      </ul>
+    </div>
+
+    <!-- showcase -->
+    <h2 id="About">Rivalry Showcase</h2>
+
+    <img src="./img/Football.jpg" alt="A soccer ball representing global football rivalries" class="centered-image" />
+    <h3>The Spark of Rivalry</h3>
+    <p>The soccer ball — a simple object that carries the weight of history, pride, and fierce rivalry across nations and clubs.</p>
+
+    <img src="./img/ElClassico.png" alt="Barcelona vs Real Madrid rivalry image" style="width:100%; height:auto" />
+    <h3>El Clásico: Clash of Titans</h3>
+    <p>El Clásico is one of football’s most watched rivalries, symbolizing the sport’s power to unite and divide across borders.</p>
+
+    <img src="./img/USA Mexico png.webp" alt="USA and Mexico national teams competing in a historic rivalry match" style="width:100%; height:auto" />
+    <h3>The North America Classico</h3>
+    <p>The USA vs Mexico rivalry is the fiercest in North American football, fueled by decades of competitive tension, cultural pride, and regional dominance.</p>
+
+    <!-- rsvp -->
+    <div id="rsvp">
+      <h2>RSVP</h2>
+      <div class="rsvp-container">
+        <div class="rsvp-para">
+          <p>Be part of the ultimate football rivalry experience! Sign up to join Rivalry Atlas — where fans from around the world come together to celebrate legendary matchups, share stories, and track every clash from El Clásico to the Old Firm. Your voice belongs in the rivalry.</p>
+        </div>
+        <div class="rsvp-participants">
+          <p>⚽️ Diego from Argentina Supports River Plate.</p>
+          <p>⚽️ Liam from Scotland supports Celtic.</p>
+          <p>⚽️ Sofia from Spain supports Real Madrid.</p>
+          <p>⚽️ Jayden from USA Supports Seattle Sounders.</p>
+
+          <!-- RSVP Count Message -->
+          <p id="rsvp-count">⭐ 4 fans have joined the rivalry event!</p>
+
+          <!-- New RSVPs will appear here -->
+          <div id="new-participants"></div>
+        </div>
+      </div>
+
+      <div class="form-container">
+        <form id="rsvp-form" title="rsvp-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+
+          <label for="country">Country:</label>
+          <input type="text" id="country" placeholder="e.g. Argentina, Nigeria, Japan" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" required />
+
+          <label for="team">Favorite Team (Club or Country):</label>
+          <input type="text" id="team" placeholder="e.g. Manchester United, Brazil" required />
+
+          <!-- Button moved inside form -->
+          <button id="rsvp-button" class="header-button">Submit RSVP</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- success modal -->
+    <div id="success-modal" class="modal">
+      <div class="modal-container">
+        <div class="modal-item">
+          <p id="modal-text">Welcome to the Rivalry Atlas! You solicitation has been accepted</p>
+        </div>
+        <!-- Optional image for animation -->
+        <div class="modal-item">
+          <img src="./img/Football.jpg" alt="Celebrating fans" />
+        </div>
+      </div>
+    </div>
+
+    <!-- links -->
+    <h2 id="Links">Links</h2>
+
+    <a class="block" href="https://www.givemesport.com/the-fiercest-international-rivalries/">
+      <article>
+        <h3>International Football Rivalries</h3>
+        <p>This article ranks the fiercest international rivalries in football history.</p>
+      </article>
+    </a>
+
+    <a class="block" href="https://www.footylegend.com/articles/the-biggest-rivalries-in-football">
+      <article>
+        <h3>The Biggest Rivalries in Club Football</h3>
+        <p>This article explores iconic club matchups that shaped football culture worldwide.</p>
+      </article>
+    </a>
+
+    <a class="block" href="https://breakingthelines.com/opinion/beyond-the-pitch-how-football-transcends-borders-cultures-and-socioeconomic-barriers-to-unite-people-worldwide/">
+      <article>
+        <h3>Beyond the Pitch</h3>
+        <p>This article explains how football unites people across borders, cultures, and socioeconomic divides.</p>
+      </article>
+    </a>
+
+    <!-- footer -->
+    <footer>
+      <p>&copy; 2025 Rivalry Atlas. All rights reserved.</p>
+    </footer>
+
+    <!-- script -->
+    <script src="index.js"></script>
+  </body>
+</html>
